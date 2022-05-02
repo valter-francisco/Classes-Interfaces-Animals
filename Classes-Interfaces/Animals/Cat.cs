@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace Classes_Interfaces.Animals
 {
-    internal class Cat : IAnimal
+    internal class Cat : Animal, IAnimal
     {
-        public void Talk()
+        public override void Talk()
         {
             Console.WriteLine("The cat goes: meow!");
         }
