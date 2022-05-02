@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Classes_Interfaces.Animals
 {
-    internal class Pig : IAnimal
+    internal class Pig : Animal, IAnimal
     {
         public void Talk()
         {
